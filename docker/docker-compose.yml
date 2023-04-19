@@ -85,7 +85,6 @@ services:
       - sonarqube_db:/var/lib/postgresql
       - postgresql_data:/var/lib/postgresql/data
 
-
 volumes:
   jenkins-docker-certs:
   jenkins-data:
